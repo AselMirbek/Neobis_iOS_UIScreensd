@@ -1,0 +1,38 @@
+{
+  "images" : [
+    {
+      "filename" : "Снимок экрана 2023-11-13 в 19.42.45.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Снимок экрана 2023-11-13 в 19.42.45 2.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Снимок экрана 2023-11-13 в 19.42.45 3.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Снимок экрана 2023-11-13 в 19.42.45 1.png",
+      "idiom" : "iphone",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Снимок экрана 2023-11-13 в 19.42.45 4.png",
+      "idiom" : "iphone",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Снимок экрана 2023-11-13 в 19.42.45 5.png",
+      "idiom" : "iphone",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

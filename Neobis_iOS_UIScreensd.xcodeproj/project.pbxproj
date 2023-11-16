@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804AA6082B0A1E1E008AFBCA /* FinanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804AA6072B0A1E1E008AFBCA /* FinanceTableViewCell.swift */; };
+		804AA60A2B0A1E72008AFBCA /* FinanceTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804AA6092B0A1E72008AFBCA /* FinanceTabBar.swift */; };
+		804AA60E2B0A44BC008AFBCA /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804AA60D2B0A44BC008AFBCA /* WeatherViewController.swift */; };
+		804AA6622B0CAB2F008AFBCA /* WeatherViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804AA6612B0CAB2F008AFBCA /* WeatherViewController2.swift */; };
+		804AA6642B0CBCFF008AFBCA /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804AA6632B0CBCFF008AFBCA /* WeatherTableViewCell.swift */; };
+		804AA6662B0CBD1E008AFBCA /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804AA6652B0CBD1E008AFBCA /* WeatherCollectionViewCell.swift */; };
+		808F1D492B067F7500A63B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D482B067F7500A63B5F /* AppDelegate.swift */; };
+		808F1D4B2B067F7500A63B5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D4A2B067F7500A63B5F /* SceneDelegate.swift */; };
+		808F1D4D2B067F7500A63B5F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D4C2B067F7500A63B5F /* MainViewController.swift */; };
+		808F1D522B067F7700A63B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808F1D512B067F7700A63B5F /* Assets.xcassets */; };
+		808F1D552B067F7700A63B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808F1D532B067F7700A63B5F /* LaunchScreen.storyboard */; };
+		808F1D602B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D5F2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.swift */; };
+		808F1D6A2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D692B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.swift */; };
+		808F1D6C2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D6B2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITestsLaunchTests.swift */; };
+		808F1D852B06814400A63B5F /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D822B06814300A63B5F /* SingleViewController.swift */; };
+		808F1D862B06814400A63B5F /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D832B06814300A63B5F /* BottomTabBar.swift */; };
+		808F1D872B06814400A63B5F /* SingleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D842B06814400A63B5F /* SingleTableViewCell.swift */; };
+		808F1D892B06815900A63B5F /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D882B06815900A63B5F /* CryptoViewController.swift */; };
+		808F1D8F2B06816C00A63B5F /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D8E2B06816C00A63B5F /* TravelTableViewCell.swift */; };
+		808F1D932B06818B00A63B5F /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D922B06818B00A63B5F /* TravelViewController.swift */; };
+		808F1D982B0682A500A63B5F /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D972B0682A500A63B5F /* FinanceViewController.swift */; };
+		808F1D9E2B08EC0800A63B5F /* CryptoBottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D9D2B08EC0800A63B5F /* CryptoBottomTabBar.swift */; };
+		808F1DA02B08ED7D00A63B5F /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808F1D9F2B08ED7D00A63B5F /* CryptoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808F1D5C2B067F7800A63B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808F1D3D2B067F7400A63B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808F1D442B067F7500A63B5F;
+			remoteInfo = Neobis_iOS_UIScreensd;
+		};
+		808F1D662B067F7800A63B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808F1D3D2B067F7400A63B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808F1D442B067F7500A63B5F;
+			remoteInfo = Neobis_iOS_UIScreensd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		804AA6072B0A1E1E008AFBCA /* FinanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTableViewCell.swift; sourceTree = "<group>"; };
+		804AA6092B0A1E72008AFBCA /* FinanceTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTabBar.swift; sourceTree = "<group>"; };
+		804AA60D2B0A44BC008AFBCA /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		804AA6612B0CAB2F008AFBCA /* WeatherViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController2.swift; sourceTree = "<group>"; };
+		804AA6632B0CBCFF008AFBCA /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		804AA6652B0CBD1E008AFBCA /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		808F1D452B067F7500A63B5F /* Neobis_iOS_UIScreensd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_UIScreensd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		808F1D482B067F7500A63B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		808F1D4A2B067F7500A63B5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		808F1D4C2B067F7500A63B5F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		808F1D512B067F7700A63B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808F1D542B067F7700A63B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		808F1D562B067F7700A63B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808F1D5B2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_UIScreensdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808F1D5F2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_UIScreensdTests.swift; sourceTree = "<group>"; };
+		808F1D652B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_UIScreensdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808F1D692B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_UIScreensdUITests.swift; sourceTree = "<group>"; };
+		808F1D6B2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_UIScreensdUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		808F1D822B06814300A63B5F /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		808F1D832B06814300A63B5F /* BottomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+		808F1D842B06814400A63B5F /* SingleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTableViewCell.swift; sourceTree = "<group>"; };
+		808F1D882B06815900A63B5F /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
+		808F1D8E2B06816C00A63B5F /* TravelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
+		808F1D922B06818B00A63B5F /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		808F1D972B0682A500A63B5F /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		808F1D9D2B08EC0800A63B5F /* CryptoBottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoBottomTabBar.swift; sourceTree = "<group>"; };
+		808F1D9F2B08ED7D00A63B5F /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808F1D422B067F7500A63B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808F1D582B067F7800A63B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808F1D622B067F7800A63B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804AA64F2B0B64D2008AFBCA /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D842B06814400A63B5F /* SingleTableViewCell.swift */,
+				808F1D832B06814300A63B5F /* BottomTabBar.swift */,
+				808F1D822B06814300A63B5F /* SingleViewController.swift */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		804AA6502B0B64F2008AFBCA /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D8E2B06816C00A63B5F /* TravelTableViewCell.swift */,
+				808F1D922B06818B00A63B5F /* TravelViewController.swift */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		804AA6512B0B6509008AFBCA /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D9F2B08ED7D00A63B5F /* CryptoTableViewCell.swift */,
+				808F1D9D2B08EC0800A63B5F /* CryptoBottomTabBar.swift */,
+				808F1D882B06815900A63B5F /* CryptoViewController.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		804AA6672B0D3612008AFBCA /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D972B0682A500A63B5F /* FinanceViewController.swift */,
+				804AA6092B0A1E72008AFBCA /* FinanceTabBar.swift */,
+				804AA6072B0A1E1E008AFBCA /* FinanceTableViewCell.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		808F1D3C2B067F7400A63B5F = {
+			isa = PBXGroup;
+			children = (
+				808F1D472B067F7500A63B5F /* Neobis_iOS_UIScreensd */,
+				808F1D5E2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests */,
+				808F1D682B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests */,
+				808F1D462B067F7500A63B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808F1D462B067F7500A63B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D452B067F7500A63B5F /* Neobis_iOS_UIScreensd.app */,
+				808F1D5B2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.xctest */,
+				808F1D652B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808F1D472B067F7500A63B5F /* Neobis_iOS_UIScreensd */ = {
+			isa = PBXGroup;
+			children = (
+				80C8137F2B0E1755006CC37E /* Weather */,
+				804AA6672B0D3612008AFBCA /* Finance */,
+				804AA6512B0B6509008AFBCA /* Crypto */,
+				804AA6502B0B64F2008AFBCA /* Travel */,
+				804AA64F2B0B64D2008AFBCA /* Single */,
+				808F1D482B067F7500A63B5F /* AppDelegate.swift */,
+				808F1D4A2B067F7500A63B5F /* SceneDelegate.swift */,
+				808F1D4C2B067F7500A63B5F /* MainViewController.swift */,
+				808F1D512B067F7700A63B5F /* Assets.xcassets */,
+				808F1D532B067F7700A63B5F /* LaunchScreen.storyboard */,
+				808F1D562B067F7700A63B5F /* Info.plist */,
+			);
+			path = Neobis_iOS_UIScreensd;
+			sourceTree = "<group>";
+		};
+		808F1D5E2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D5F2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.swift */,
+			);
+			path = Neobis_iOS_UIScreensdTests;
+			sourceTree = "<group>";
+		};
+		808F1D682B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				808F1D692B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.swift */,
+				808F1D6B2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITestsLaunchTests.swift */,
+			);
+			path = Neobis_iOS_UIScreensdUITests;
+			sourceTree = "<group>";
+		};
+		80C8137F2B0E1755006CC37E /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				804AA6652B0CBD1E008AFBCA /* WeatherCollectionViewCell.swift */,
+				804AA6612B0CAB2F008AFBCA /* WeatherViewController2.swift */,
+				804AA6632B0CBCFF008AFBCA /* WeatherTableViewCell.swift */,
+				804AA60D2B0A44BC008AFBCA /* WeatherViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808F1D442B067F7500A63B5F /* Neobis_iOS_UIScreensd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808F1D6F2B067F7800A63B5F /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreensd" */;
+			buildPhases = (
+				808F1D412B067F7500A63B5F /* Sources */,
+				808F1D422B067F7500A63B5F /* Frameworks */,
+				808F1D432B067F7500A63B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_iOS_UIScreensd;
+			productName = Neobis_iOS_UIScreensd;
+			productReference = 808F1D452B067F7500A63B5F /* Neobis_iOS_UIScreensd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808F1D5A2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808F1D722B067F7800A63B5F /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreensdTests" */;
+			buildPhases = (
+				808F1D572B067F7800A63B5F /* Sources */,
+				808F1D582B067F7800A63B5F /* Frameworks */,
+				808F1D592B067F7800A63B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808F1D5D2B067F7800A63B5F /* PBXTargetDependency */,
+			);
+			name = Neobis_iOS_UIScreensdTests;
+			productName = Neobis_iOS_UIScreensdTests;
+			productReference = 808F1D5B2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		808F1D642B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808F1D752B067F7800A63B5F /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreensdUITests" */;
+			buildPhases = (
+				808F1D612B067F7800A63B5F /* Sources */,
+				808F1D622B067F7800A63B5F /* Frameworks */,
+				808F1D632B067F7800A63B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808F1D672B067F7800A63B5F /* PBXTargetDependency */,
+			);
+			name = Neobis_iOS_UIScreensdUITests;
+			productName = Neobis_iOS_UIScreensdUITests;
+			productReference = 808F1D652B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808F1D3D2B067F7400A63B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					808F1D442B067F7500A63B5F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					808F1D5A2B067F7800A63B5F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 808F1D442B067F7500A63B5F;
+					};
+					808F1D642B067F7800A63B5F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 808F1D442B067F7500A63B5F;
+					};
+				};
+			};
+			buildConfigurationList = 808F1D402B067F7400A63B5F /* Build configuration list for PBXProject "Neobis_iOS_UIScreensd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808F1D3C2B067F7400A63B5F;
+			productRefGroup = 808F1D462B067F7500A63B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808F1D442B067F7500A63B5F /* Neobis_iOS_UIScreensd */,
+				808F1D5A2B067F7800A63B5F /* Neobis_iOS_UIScreensdTests */,
+				808F1D642B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808F1D432B067F7500A63B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808F1D552B067F7700A63B5F /* LaunchScreen.storyboard in Resources */,
+				808F1D522B067F7700A63B5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808F1D592B067F7800A63B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808F1D632B067F7800A63B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808F1D412B067F7500A63B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808F1D4D2B067F7500A63B5F /* MainViewController.swift in Sources */,
+				804AA60E2B0A44BC008AFBCA /* WeatherViewController.swift in Sources */,
+				808F1D9E2B08EC0800A63B5F /* CryptoBottomTabBar.swift in Sources */,
+				808F1D872B06814400A63B5F /* SingleTableViewCell.swift in Sources */,
+				808F1D8F2B06816C00A63B5F /* TravelTableViewCell.swift in Sources */,
+				804AA6662B0CBD1E008AFBCA /* WeatherCollectionViewCell.swift in Sources */,
+				804AA6642B0CBCFF008AFBCA /* WeatherTableViewCell.swift in Sources */,
+				808F1DA02B08ED7D00A63B5F /* CryptoTableViewCell.swift in Sources */,
+				804AA6082B0A1E1E008AFBCA /* FinanceTableViewCell.swift in Sources */,
+				808F1D492B067F7500A63B5F /* AppDelegate.swift in Sources */,
+				808F1D892B06815900A63B5F /* CryptoViewController.swift in Sources */,
+				804AA6622B0CAB2F008AFBCA /* WeatherViewController2.swift in Sources */,
+				808F1D852B06814400A63B5F /* SingleViewController.swift in Sources */,
+				808F1D4B2B067F7500A63B5F /* SceneDelegate.swift in Sources */,
+				808F1D862B06814400A63B5F /* BottomTabBar.swift in Sources */,
+				808F1D932B06818B00A63B5F /* TravelViewController.swift in Sources */,
+				808F1D982B0682A500A63B5F /* FinanceViewController.swift in Sources */,
+				804AA60A2B0A1E72008AFBCA /* FinanceTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808F1D572B067F7800A63B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808F1D602B067F7800A63B5F /* Neobis_iOS_UIScreensdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808F1D612B067F7800A63B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808F1D6A2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITests.swift in Sources */,
+				808F1D6C2B067F7800A63B5F /* Neobis_iOS_UIScreensdUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808F1D5D2B067F7800A63B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808F1D442B067F7500A63B5F /* Neobis_iOS_UIScreensd */;
+			targetProxy = 808F1D5C2B067F7800A63B5F /* PBXContainerItemProxy */;
+		};
+		808F1D672B067F7800A63B5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808F1D442B067F7500A63B5F /* Neobis_iOS_UIScreensd */;
+			targetProxy = 808F1D662B067F7800A63B5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		808F1D532B067F7700A63B5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808F1D542B067F7700A63B5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808F1D6D2B067F7800A63B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		808F1D6E2B067F7800A63B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808F1D702B067F7800A63B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_UIScreensd/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobisD.Neobis-iOS-UIScreensd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		808F1D712B067F7800A63B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_UIScreensd/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobisD.Neobis-iOS-UIScreensd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		808F1D732B067F7800A63B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobisD.Neobis-iOS-UIScreensdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_iOS_UIScreensd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_iOS_UIScreensd";
+			};
+			name = Debug;
+		};
+		808F1D742B067F7800A63B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobisD.Neobis-iOS-UIScreensdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_iOS_UIScreensd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_iOS_UIScreensd";
+			};
+			name = Release;
+		};
+		808F1D762B067F7800A63B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobisD.Neobis-iOS-UIScreensdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_iOS_UIScreensd;
+			};
+			name = Debug;
+		};
+		808F1D772B067F7800A63B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TA9LBQP7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "neobisD.Neobis-iOS-UIScreensdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_iOS_UIScreensd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808F1D402B067F7400A63B5F /* Build configuration list for PBXProject "Neobis_iOS_UIScreensd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808F1D6D2B067F7800A63B5F /* Debug */,
+				808F1D6E2B067F7800A63B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808F1D6F2B067F7800A63B5F /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreensd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808F1D702B067F7800A63B5F /* Debug */,
+				808F1D712B067F7800A63B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808F1D722B067F7800A63B5F /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreensdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808F1D732B067F7800A63B5F /* Debug */,
+				808F1D742B067F7800A63B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808F1D752B067F7800A63B5F /* Build configuration list for PBXNativeTarget "Neobis_iOS_UIScreensdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808F1D762B067F7800A63B5F /* Debug */,
+				808F1D772B067F7800A63B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 808F1D3D2B067F7400A63B5F /* Project object */;
+}
